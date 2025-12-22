@@ -84,12 +84,12 @@ typedef unsigned long long  ulong64_t;
 
 // TCXO of the ADF7021
 // For 14.7456 MHz:
-#define ADF7021_14_7456
+// #define ADF7021_14_7456
 // For 12.2880 MHz:
-// #define ADF7021_12_2880
+#define ADF7021_12_2880
 
 // Enable full duplex support with dual ADF7021 (valid for homebrew hotspots only)
-#define DUPLEX
+// #define DUPLEX
 
 // Support for ADF7021-N version: 
 // #define ADF7021_N_VER
